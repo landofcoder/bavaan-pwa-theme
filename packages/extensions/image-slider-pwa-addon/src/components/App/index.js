@@ -20,7 +20,7 @@ const App = props => {
     } = props;
 
     const classes = useStyle(defaultClasses, propClasses);
-    const rootClassName = classes[getSliderClassName(priority, style)];
+    const rootClassName = classes[getSliderClassName(position, style)];
 
     return (
         <div className={rootClassName}>

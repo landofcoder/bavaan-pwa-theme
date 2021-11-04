@@ -49,7 +49,7 @@ const Banner = props => {
                     <iframe
                         src={banner.resource_path}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        //style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
+                        style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
                     />
                 </div>
             )
@@ -62,7 +62,7 @@ const Banner = props => {
                             <img
                                 className={defaultClasses.bannerImage}
                                 src={banner.resource_path}
-                                //style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
+                                style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
                             />
                             <p className={defaultClasses.bannerTitle}>{banner.title}</p>
                         </a>
@@ -75,7 +75,7 @@ const Banner = props => {
                         <img
                             className={defaultClasses.bannerImage}
                             src={banner.resource_path}
-                            //style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
+                            style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
                         />
                         <p className={defaultClasses.bannerTitle}>{banner.title}</p>
                     </div>
@@ -90,7 +90,7 @@ const Banner = props => {
                             <img
                                 className={defaultClasses.bannerImage}
                                 src={`${process.env.MAGENTO_BACKEND_URL}/media/${banner.resource_path}`}
-                                //style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
+                                style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
                             />
                             <p className={defaultClasses.bannerTitle}>{banner.title}</p>
                         </a>
@@ -103,7 +103,7 @@ const Banner = props => {
                         <img
                             className={defaultClasses.bannerImage}
                             src={`${process.env.MAGENTO_BACKEND_URL}/media/${banner.resource_path}`}
-                            //style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
+                            style={{maxWidth: banner.resource_map.max_width, minWidth: banner.resource_map.min_width}}
                         />
                         <p className={defaultClasses.bannerTitle}>{banner.title}</p>
                     </div>
