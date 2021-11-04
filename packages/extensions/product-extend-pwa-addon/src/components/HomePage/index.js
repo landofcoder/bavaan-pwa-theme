@@ -3,7 +3,7 @@ import { useBlog } from '@landofcoder/lof-product-extend-components/lib/talons/H
 import { useImageSlider } from '@landofcoder/lof-product-extend-components/lib/talons/Homepage/useImageSlider';
 import { useProductSlider } from '@landofcoder/lof-product-extend-components/lib/talons/Homepage/useProductSlider';
 import { useTopBrands } from "@landofcoder/lof-product-extend-components/lib/talons/Homepage/useTopBrands";
-import globalCSS from "@magento/venia-ui/lib/components/HomePage/homePage.css";
+import globalCSS from "@magento/venia-ui/lib/components/HomePage/homePage.module.css";
 
 const HomePage = () => {
     const imageSlider = useImageSlider();
