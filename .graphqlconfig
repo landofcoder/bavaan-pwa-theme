@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "bavaan-theme": {
+      "schemaPath": "merged-schema.v3.json",
+      "includes": [
+        "**/client-schema.graphql"
+      ],
+      "extensions": {
+        "endpoints": {
+          "default": "${env:MAGENTO_BACKEND_URL}/graphql"
+        }
+      }
+    }
+  }
+}
