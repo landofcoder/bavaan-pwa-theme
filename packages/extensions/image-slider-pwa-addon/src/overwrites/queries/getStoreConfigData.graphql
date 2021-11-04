@@ -1,0 +1,19 @@
+query storeConfigData {
+    storeConfig {
+        secure_base_media_url
+        base_media_url
+        lof_bannerslider{
+            enabled
+            default_homepage_slider
+            default_mobile_slider
+            items_to_show
+            sliding_speed
+            autoplay
+            autoplay_speed
+            animation_style
+            show_nav
+            show_dots
+            full_width
+        }
+    }
+}

@@ -1,0 +1,54 @@
+/* .tagListRoot {
+    padding: 5px;
+    border-top: solid 1px #eaeaea;
+    margin-top: 15px;
+}
+.tagListHeader {
+    margin-top: 15px;
+    font-size: 20px;
+}
+.tagItems {
+    margin-top: 15px;
+}
+.tagItem {
+    background: #fff;
+    border: 1px solid #bbb;
+    color: inherit;
+    font-weight: normal;
+    font-size: 100%;
+    border-radius: 1px;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+.tagItem:hover {
+    color: white;
+} */
+
+.commentListItem {
+    border-bottom: 1.5px solid #bbbbbbbd;
+}
+.commentLisItemContainer {
+    display: flex;
+    flex-direction: column;
+}
+.commentPostTitle {
+    font-size: 18px;
+    margin-top: 33px;
+}
+.commentContent {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    opacity: 80%;
+}
+.commentPostTitle:hover {
+    color: #006bb4;
+}
+.listRecentCommentContainer {
+    padding-bottom: 30px;
+
+}
+.recentCommentsHeader {
+    font-size: 20px;
+}

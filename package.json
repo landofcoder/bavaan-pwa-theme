@@ -23,6 +23,11 @@
     "storybook": "start-storybook -p 9001 -c src/.storybook",
     "storybook:build": "build-storybook -c src/.storybook -o storybook-dist"
   },
+  "workspaces":[
+    "./",
+    "packages/extensions/blog-pwa-addon",
+    "packages/extensions/image-slider-pwa-addon"
+  ],
   "main": "src/index.js",
   "browser": {
     "@magento/venia-drivers": "src/drivers"
@@ -120,7 +125,9 @@
     "workbox-precaching": "~6.2.4",
     "workbox-routing": "~6.2.4",
     "workbox-strategies": "~6.2.4",
-    "workbox-webpack-plugin": "~6.2.4"
+    "workbox-webpack-plugin": "~6.2.4",
+    "@landofcoder/ves-blog-module": "1.0.0",
+    "@landofcoder/lof-images-slider-module": "1.0.0"
   },
   "optionalDependencies": {
     "sharp": "~0.29.0"
