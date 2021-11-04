@@ -26,7 +26,8 @@
   "workspaces":[
     "./",
     "packages/extensions/blog-pwa-addon",
-    "packages/extensions/image-slider-pwa-addon"
+    "packages/extensions/image-slider-pwa-addon",
+    "packages/extensions/product-extend-pwa-addon"
   ],
   "main": "src/index.js",
   "browser": {
@@ -127,7 +128,8 @@
     "workbox-strategies": "~6.2.4",
     "workbox-webpack-plugin": "~6.2.4",
     "@landofcoder/ves-blog-module": "1.0.0",
-    "@landofcoder/lof-images-slider-module": "1.0.0"
+    "@landofcoder/lof-images-slider-module": "1.0.0",
+    "@landofcoder/lof-product-extend-components": "1.0.0"
   },
   "optionalDependencies": {
     "sharp": "~0.29.0"
