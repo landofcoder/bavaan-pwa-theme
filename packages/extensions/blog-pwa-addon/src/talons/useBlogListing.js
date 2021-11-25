@@ -11,7 +11,7 @@ import { useToasts } from '@magento/peregrine';
 import Icon from '@magento/venia-ui/lib/components/Icon';
 import { AlertCircle as AlertCircleIcon } from 'react-feather';
 import { usePagination } from '@magento/peregrine';
-import { useHistory } from '@magento/venia-drivers';
+import { useHistory } from '@magento/venia-ui/lib/drivers';
 import LoadingIndicator from '@magento/venia-ui/lib/components/LoadingIndicator';
 
 const errorIcon = <Icon src={AlertCircleIcon} attrs={{ width: 18 }} />;

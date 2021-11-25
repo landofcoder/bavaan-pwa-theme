@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from "react-responsive-carousel";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Link } from '@magento/venia-drivers';
+import { Link } from '@magento/venia-ui/lib/drivers';
 import BlogPostInfo from '../blogPostInfo';
 import { useWindowSize } from '@magento/peregrine';
 

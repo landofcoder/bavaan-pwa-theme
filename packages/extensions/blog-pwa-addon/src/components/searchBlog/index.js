@@ -3,7 +3,7 @@ import { useSearchBox } from '../../talons/useSearchBox'
 import { Form } from 'informed';
 import classes from './search.css'
 import LoadingIndicator from '@magento/venia-ui/lib/components/LoadingIndicator';
-import { Link } from '@magento/venia-drivers';
+import { Link } from '@magento/venia-ui/lib/drivers';
 import Icon from '@magento/venia-ui/lib/components/Icon';
 import { Search as SearchIc } from 'react-feather';
 

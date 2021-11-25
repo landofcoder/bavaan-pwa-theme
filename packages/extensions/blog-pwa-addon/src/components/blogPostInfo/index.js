@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Link } from '@magento/venia-drivers';
+import { Link } from '@magento/venia-ui/lib/drivers';
 import Icon from '@magento/venia-ui/lib/components/Icon';
 import { Calendar as CalendarIc, User as AuthorIc, Eye as EyeIc } from 'react-feather';
 
@@ -66,7 +66,7 @@ const BlogPostInfo = props => {
                 null
             }
             {
-                
+
                 // <React.Fragment> |
                 //     <span>
                 //         {authorIcon}
@@ -90,7 +90,7 @@ const BlogPostInfo = props => {
                     null
                 }
                 {/* <Link to={`/blog/author/${author?.user_name}.html?author_name=${author?.user_name}&author_id=${author?.author_id}`} /> */}
-            </span> | 
+            </span> |
             {/* <div className={classes.authorName}>
                 <Link to={`/blog/author/${author?.user_name}.html?author_name=${author?.user_name}&author_id=${author?.author_id}`} />
             </div> */}

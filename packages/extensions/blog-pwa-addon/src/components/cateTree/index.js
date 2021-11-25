@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCateTree } from '../../talons/useCateTree'
 import classes from './cateTree.css'
-import { useHistory } from '@magento/venia-drivers';
+import { useHistory } from '@magento/venia-ui/lib/drivers';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import { Redirect } from 'react-router-dom';

@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from '@magento/venia-ui/lib/components/Icon';
 import { PenTool as PenToolIcon } from 'react-feather';
-import { resourceUrl, useHistory } from '@magento/venia-drivers';
+import { resourceUrl, useHistory } from '@magento/venia-ui/lib/drivers';
 import classes from './blogicon.css';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { Util } from '@magento/peregrine';
@@ -30,7 +30,7 @@ const BlogIcon = () => {
             </button>
         )
     }
-    
+
     return ''
 }
 export default BlogIcon

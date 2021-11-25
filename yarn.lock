@@ -2058,15 +2058,15 @@
   resolved "https://registry.yarnpkg.com/@magento/eslint-config/-/eslint-config-1.5.2.tgz#24083d869afd124a414ae8a15401e0a6e44a99a6"
   integrity sha512-iN5Ic0JQe549ycijZNyNRu3JHajGVrBPX3a5yy4zAjdF9gE8z6jCVQOUP3WGuff4bEJfJgs/VODSIPuEU4NjBg==
 
-"@magento/pagebuilder@~7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@magento/pagebuilder/-/pagebuilder-7.0.0.tgz#d75f030e22646933566ecd69bd040c4edface395"
-  integrity sha512-+MQP7qKGHLtDh7q9H+YZ5sa9dcSN16HRtlh/Ne5v6kV5ILWXCgEzrItNg7PV+X9w4jljbWUjG/kIgvFZffMBjw==
+"@magento/pagebuilder@~7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@magento/pagebuilder/-/pagebuilder-7.0.1.tgz#9e5b617c407388667e18e5d564f7dd6959ab9be4"
+  integrity sha512-CpQqr5Fh0P6rtw1vkHVLjYIDykqPZ8DzZQkWNottfnjWkCeashD0kJURO+TiUkPIITEhQAn5S84KVmANf59Etw==
 
-"@magento/peregrine@~12.0.0":
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/@magento/peregrine/-/peregrine-12.0.0.tgz#39b32a5c20118832e36450ee61d77cb3ad3b977f"
-  integrity sha512-SAaQhfFVuSq4ILpPazJfzuuy7jcVx//xQtLzxjjzegObtfRgCDggj9/LfnqnKG3FYXwPt9mAnOHHIm2PxJxXWQ==
+"@magento/peregrine@~12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@magento/peregrine/-/peregrine-12.1.0.tgz#26890ad518a235ab1eb3276d42169bb718764ba0"
+  integrity sha512-RKQw4IZHKrf9kPLP+spKyplCQoAe9a8CvGXvkKftw6FErks6+lq0Y+0ZKIp8YhEgGtpqO9EWT+P1VIz0nTKeYQ==
   dependencies:
     fast-glob "~3.2.4"
 
@@ -2120,10 +2120,10 @@
     write-file-webpack-plugin "~4.5.0"
     yargs "~13.2.2"
 
-"@magento/pwa-theme-venia@~1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@magento/pwa-theme-venia/-/pwa-theme-venia-1.0.0.tgz#82db2d36cf2276e10e99e80c9c6e3f7a11e25d4d"
-  integrity sha512-vCHHk4nCMfCfOW9hX4KP2QB4iUPhXvN6H/rBOeQHRBKJjURCNMG6aSOqSunSd05A3B55mIP5a+fOOmDeOJOSWQ==
+"@magento/pwa-theme-venia@~1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@magento/pwa-theme-venia/-/pwa-theme-venia-1.1.0.tgz#db98fc2c67d4ca38c189799fad8488ed3e27d53b"
+  integrity sha512-XpjIc0DFuzE6IjVT3TQ++I0su/3vFyJYa/H46jKafm0KDeZE7V1XvnaR3AmCsIKPHlSlSg4fRk6LUqlsjlHW+A==
 
 "@magento/upward-js@~5.2.0":
   version "5.2.0"
@@ -2145,15 +2145,36 @@
     morgan "~1.9.1"
     node-fetch "~2.6.1"
 
-"@magento/upward-security-headers@~1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@magento/upward-security-headers/-/upward-security-headers-1.0.4.tgz#bfec633719cc072f6433585c98dd312baaab0b99"
-  integrity sha512-237/vOmGHa4ODWOa0diLgToJaXCHXydwp1yv77JC3Z+OB534xyNcWKuBQEwB+4Fb3ZWYQ9OsKrO7+2p6G4KReA==
+"@magento/upward-security-headers@~1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@magento/upward-security-headers/-/upward-security-headers-1.0.5.tgz#a524a00d731502f1b8454124638034d4dc69ca39"
+  integrity sha512-yOG2GQYx7PsqXtfjxKjNnD2UGUzwvQcKHyUbZqfG5gwW1fjqfFHMH5r8wCmHRy9lslBJMk7lSEZ4k1F2JSLQ9A==
 
-"@magento/venia-ui@>=5.0.0", "@magento/venia-ui@~9.0.0":
+"@magento/venia-ui@>=5.0.0":
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/@magento/venia-ui/-/venia-ui-9.0.0.tgz#154540000f9245dca3e7ab51331776ed8b9c47d1"
   integrity sha512-xi6SpHyjHmTP7LmREyHcbSWiLrk6ooqRB/8j8NH6W/W+xZ0NSgC3rJ469WOXeEyClChU33lR8D/7KB5ATmuuiw==
+  dependencies:
+    informed "~3.29.0"
+    jarallax "~1.11.1"
+    load-google-maps-api "~2.0.1"
+    lodash.escape "~4.0.1"
+    lodash.over "~4.7.0"
+    lodash.throttle "~4.1.1"
+    memoize-one "~5.0.0"
+    prop-types "~15.7.2"
+    react-aria "~3.4.0"
+    react-feather "~2.0.3"
+    react-helmet-async "^1.0.2"
+    react-slick "~0.28.0"
+    redux-actions "~2.6.4"
+    redux-thunk "~2.3.0"
+    uuid "~8.3.2"
+
+"@magento/venia-ui@~9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@magento/venia-ui/-/venia-ui-9.1.0.tgz#d2eea5a3ee1bac49484d67ddf06ac93367cd2293"
+  integrity sha512-DjOHCn8LuX3sJNj0nd3nk08gV2Vs6ApxCdw70sdXfWOC9/p2YL52LFjNQMLSIwjIuDbddurbNR5n6QhbccLl5w==
   dependencies:
     informed "~3.29.0"
     jarallax "~1.11.1"

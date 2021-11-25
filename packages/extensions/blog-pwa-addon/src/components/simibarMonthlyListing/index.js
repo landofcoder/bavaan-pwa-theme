@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './style.css'
 import { GET_BLOG_ARCHIVE } from '../../talons/Blog.gql'
 import { useQuery } from '@apollo/client';
-import { Link } from '@magento/venia-drivers';
+import { Link } from '@magento/venia-ui/lib/drivers';
 import Icon from '@magento/venia-ui/lib/components/Icon';
 import { Calendar as CalendarIc } from 'react-feather';
 import LoadingIndicator from '@magento/venia-ui/lib/components/LoadingIndicator';
