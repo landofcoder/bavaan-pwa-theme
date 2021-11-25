@@ -13,12 +13,12 @@ import FormError from "@magento/venia-ui/lib/components/FormError";
 import { fullPageLoadingIndicator } from "@magento/venia-ui/lib/components/LoadingIndicator";
 import { QuantityFields } from "@magento/venia-ui/lib/components/CartPage/ProductListing/quantity";
 import RichText from "@magento/venia-ui/lib/components/RichText";
-import defaultClasses from '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.css';
+import defaultClasses from '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.module.css';
 import {
     ADD_CONFIGURABLE_MUTATION,
     ADD_SIMPLE_MUTATION
 } from '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.gql';
-import styles from './productDetail.css';
+//import styles from './productDetail.module.css';
 import { useProductRelated } from "@landofcoder/lof-product-extend-components/lib/talons/ProductDetail/useProductRelated";
 import { useBrandList } from "@landofcoder/lof-product-extend-components/lib/talons/ProductDetail/useBrandList";
 

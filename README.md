@@ -16,6 +16,7 @@ The theme we will include some our PWA components and UI component to build them
 - Marketplace Component
 2. UI Components
 - Megamenu UI component
+- Tailwind UI component
 
 ## Installation
 Run:
