@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Link } from '@magento/venia-ui/lib/drivers';
+import { Link } from 'react-router-dom';
 import Icon from '@magento/venia-ui/lib/components/Icon';
 import { Calendar as CalendarIc, User as AuthorIc, Eye as EyeIc } from 'react-feather';
 

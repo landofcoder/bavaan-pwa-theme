@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { shape, string } from 'prop-types';
 
 import Logo from '@magento/venia-ui/lib/components/Logo';
-import { Link, resourceUrl, Route } from '@magento/venia-ui/lib/drivers';
+import { Link, resourceUrl, Route } from 'react-router-dom';
 
 import AccountTrigger from '@magento/venia-ui/lib/components/Header/accountTrigger';
 import CartTrigger from '@magento/venia-ui/lib/components/Header/cartTrigger';

@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import classes from './sidebarPosts.css'
 import { useSidebarPosts } from '../../talons/useSidebarPosts'
 import LoadingIndicator from '@magento/venia-ui/lib/components/LoadingIndicator';
-import { Link } from '@magento/venia-ui/lib/drivers';
+import { Link } from 'react-router-dom';
 import { Util } from '@magento/peregrine';
 const { BrowserPersistence } = Util;
 const storage = new BrowserPersistence();

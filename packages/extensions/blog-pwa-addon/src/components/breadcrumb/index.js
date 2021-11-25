@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './breadcrumb.css';
-import { Link } from '@magento/venia-ui/lib/drivers';
+import { Link } from 'react-router-dom';
 
 const BreadCrumb = props => {
     const { items } = props;

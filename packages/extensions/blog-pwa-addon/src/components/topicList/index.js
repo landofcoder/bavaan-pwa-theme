@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './topicList.css'
 import { GET_BLOG_TOPICS } from '../../talons/Blog.gql'
 import { useQuery } from '@apollo/client';
-import { Link } from '@magento/venia-ui/lib/drivers';
+import { Link } from 'react-router-dom';
 import Icon from '@magento/venia-ui/lib/components/Icon';
 import { Folder as FolderIc } from 'react-feather';
 

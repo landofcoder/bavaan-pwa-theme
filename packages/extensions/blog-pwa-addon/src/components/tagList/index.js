@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './tagList.css'
 import { GET_BLOG_TAGS, GET_TAGS_LIST } from '../../talons/Blog.gql'
 import { useQuery } from '@apollo/client';
-import { Link } from '@magento/venia-ui/lib/drivers';
+import { Link } from 'react-router-dom';
 import { Util } from '@magento/peregrine';
 const { BrowserPersistence } = Util;
 const storage = new BrowserPersistence();
