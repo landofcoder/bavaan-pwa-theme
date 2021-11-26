@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "A new project based on @magento/venia-concept",
   "author": "landofcoder <landofcoder@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "OSL-3.0",
   "scripts": {
     "buildpack": "buildpack",
     "build": "yarn run build:prod",
@@ -25,9 +25,11 @@
   },
   "workspaces":[
     "./",
-    "packages/extensions/blog-pwa-addon",
-    "packages/extensions/image-slider-pwa-addon",
-    "packages/extensions/product-extend-pwa-addon"
+    "packages/extensions/blog-addon",
+    "packages/extensions/image-slider-addon",
+    "packages/extensions/product-extend-addon",
+    "packages/extensions/brand-addon",
+    "packages/extensions/product-slider-addon"
   ],
   "main": "src/index.js",
   "browser": {
@@ -127,9 +129,11 @@
     "workbox-routing": "~6.2.4",
     "workbox-strategies": "~6.2.4",
     "workbox-webpack-plugin": "~6.2.4",
-    "@landofcoder/ves-blog-module": "1.0.0",
-    "@landofcoder/lof-images-slider-module": "1.0.0",
-    "@landofcoder/lof-product-extend-components": "1.0.0"
+    "@landofcoder/blog-addon": "1.0.0",
+    "@landofcoder/image-slider-addon": "1.0.0",
+    "@landofcoder/product-extend-addon": "1.0.0",
+    "@landofcoder/product-slider-addon": "1.0.0",
+    "@landofcoder/brand-addon": "1.0.0"
   },
   "optionalDependencies": {
     "sharp": "~0.29.0"

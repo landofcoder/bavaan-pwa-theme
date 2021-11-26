@@ -1,0 +1,25 @@
+{
+  "name": "@landofcoder/image-slider-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/targets/wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "landofcoder",
+  "license": "ISC",
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "^11.0.0",
+    "@magento/venia-ui": "^9.0.0",
+    "react": "^17.0.1"
+  },
+  "dependencies": {
+    "react-id-swiper": "^4.0.0",
+    "swiper": "^6.3.5"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "src/targets/intercept"
+    }
+  }
+}
