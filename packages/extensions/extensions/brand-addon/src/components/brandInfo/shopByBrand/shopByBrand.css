@@ -1,0 +1,14 @@
+.brandLink {
+
+}
+.shopByBrandLabel {
+    margin: 20px 0;
+    font-size: 25px;
+}
+.shopByBrandItem {
+    margin: 10px 10px;
+}
+.shopByBrandItem:hover {
+    color: #0099ff;
+    text-decoration: underline;
+}

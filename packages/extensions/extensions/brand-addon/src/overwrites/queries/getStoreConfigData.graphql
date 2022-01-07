@@ -1,0 +1,66 @@
+# Get store configuration.
+query storeConfigData {
+    storeConfig {
+        id
+        code
+        locale
+        secure_base_media_url
+        Brand {
+            brand_block_addition_class
+            brand_block_autoplay
+            brand_block_autoplay_pauseonhover
+            brand_block_autoplay_timeout
+            brand_block_brand_groups
+            brand_block_carousel_layout
+            brand_block_default_items
+            brand_block_dots
+            brand_block_enable
+            brand_block_interval
+            brand_block_item_per_page
+            brand_block_large_items
+            brand_block_lg_column_item
+            brand_block_loop
+            brand_block_md_column_item
+            brand_block_mobile_items
+            brand_block_nav
+            brand_block_nav_next
+            brand_block_nav_prev
+            brand_block_number_item
+            brand_block_number_item_per_column
+            brand_block_portrait_items
+            brand_block_pretext
+            brand_block_rtl
+            brand_block_show_brand_name
+            brand_block_sm_column_item
+            brand_block_tablet_items
+            brand_block_tablet_small_items
+            brand_block_title
+            brand_block_xs_column_item
+            brand_list_page_grid_config_heading
+            brand_list_page_item_per_page
+            brand_list_page_layout
+            brand_list_page_lg_column_item
+            brand_list_page_md_column_item
+            brand_list_page_meta_description
+            brand_list_page_meta_keywords
+            brand_list_page_page_title
+            brand_list_page_seo_config_heading
+            brand_list_page_show_brand_name
+            brand_list_page_sm_column_item
+            brand_list_page_xs_column_item
+            general_settings_enable
+            general_settings_enable_menu
+            general_settings_enable_search
+            general_settings_route
+            general_settings_url_prefix
+            general_settings_url_suffix
+            product_view_page_brand_layout_listing
+            product_view_page_brand_text
+            product_view_page_enable_brand_info
+            product_view_page_show_brand_description
+            product_view_page_show_brand_image
+            product_view_page_show_brand_name
+            product_view_page_show_brand_text
+        }
+    }
+}

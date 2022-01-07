@@ -1,0 +1,29 @@
+.root {
+    align-items: center;
+}
+
+.image {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.thumbnail {
+    height: 75px;
+    max-height: 75px;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+.name {
+    word-break: break-word;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.meta_description {
+    word-break: break-word;
+    margin-bottom: 10px;
+}

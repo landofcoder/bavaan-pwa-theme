@@ -1,0 +1,87 @@
+:global(.swiper-container) {
+    overflow: hidden;
+    width: 100%;
+}
+:global(.swiper-slide) {
+    text-align: center;
+    flex-shrink: 0;
+    transition-property: transform;
+}
+:global(.swiper-wrapper) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+.productSliderModule {
+    margin: 0 auto;
+}
+.title {
+    margin-top: 20px;
+    color: rgb(var(--venia-global-color-text));
+    padding-bottom: 1rem;
+    font-weight: 300;
+    line-height: 1.375rem;
+    text-align: center;
+}
+.title h2::before {
+    position: absolute;
+    content: '';
+    width: 108px;
+    height: 16px;
+    bottom: -20px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.title h2 {
+    position: relative;
+    word-break: break-word;
+    line-height: 1.25em;
+    margin-bottom: 0.5em;
+    margin-top: 1rem;
+    font-family: 'Source Serif Pro';
+    font-size: 30px !important;
+}
+.wrapperSlider > div {
+    margin-bottom: 4rem;
+}
+.itemBrand {
+    margin: 20px;
+}
+
+.itemBrand:hover {
+    border-radius:10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.itemBrand:hover .nameBrand {
+    color: #42CAA6;
+}
+.imageBrand {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.imageItemBrand {
+    margin: 0 auto;
+}
+.nameBrand {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.carousel-initialized {
+    padding-bottom: 10px;
+}
+.button {
+    border: 1px solid #42CAA6;
+    border-radius: 5px;
+    padding: 5px;
+}
+.button:hover {
+    background-color: #42CAA6;
+}
+

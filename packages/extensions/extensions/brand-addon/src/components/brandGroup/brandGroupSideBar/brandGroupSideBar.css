@@ -1,0 +1,13 @@
+.brandLink {
+}
+.brandGroupSideBarLabel {
+    margin: 20px 0;
+    font-size: 25px;
+}
+.brandGroupSideBarItem {
+    margin: 10px 10px;
+}
+.brandGroupSideBarItem:hover {
+    color: #0099ff;
+    text-decoration: underline;
+}

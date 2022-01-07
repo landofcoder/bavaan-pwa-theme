@@ -1,0 +1,50 @@
+.brandsContainer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.brandsList {
+    float: left;
+}
+
+.brandListRow::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+.brandListRow {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.brandItem {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.brandItem:hover {
+    border-radius:10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.brandTitle {
+    float: left;
+    padding-top: 12px;
+}
+.brandThumbnail {
+    max-width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .brandsList, .brandsContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .brandItem {
+        width: 50%;
+        padding: 15px;
+    }
+}

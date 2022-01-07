@@ -1,0 +1,131 @@
+.root {
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0 0.5rem;
+}
+
+.pagination {
+    position: relative;
+    bottom: 0;
+}
+
+.placeholder {
+    height: 100vh;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+.brandTitle {
+    color: rgb(var(--venia-global-color-text));
+    padding-bottom: 1rem;
+    font-size: 1.375rem;
+    font-weight: 300;
+    line-height: 1.375rem;
+    text-align: center;
+}
+
+.sortContainer {
+    color: rgb(var(--venia-global-color-text-alt));
+    text-align: center;
+    font-size: 0.875rem;
+    padding-bottom: 1rem;
+}
+
+.sortText {
+    font-weight: 600;
+}
+
+.filterButton {
+    composes: root_lowPriority from "../button.css";
+    min-width: 6.25rem;
+}
+
+
+
+
+.brandsContainer::after {
+    content: '';
+    display: table;
+    clear: both;
+    padding-bottom: 20px;
+}
+.brandsContentLeft {
+    float: left;
+    width: 25%;
+}
+.brandsSearchLabel {
+    margin: 50px 16px 25px 16px;
+    font-size: 25px;
+}
+.brandsContentRight {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    border-left: 1px solid #dee0e0;
+}
+.brandsListTitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--venia-global-fontFamily-sansSerif);
+}
+.brandListRow::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.brandListRow {
+    text-align: center;
+}
+.brandItem {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 150px;
+    transition: box-shadow .3s;
+    margin: 10px;
+}
+.brandImage {
+    margin: 50px 0;
+}
+.brandThumbnail {
+    max-width: 80%;
+}
+.brandLink {
+}
+.brandItem:hover {
+    border-radius:10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.shopByBrand {
+    margin: 0 16px;
+}
+.brandGroupSideBar {
+    margin: 0 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .brandsContentRight, .brandsContainer {
+        width: 100%;
+        border-left: none;
+    }
+    .brandsContentLeft {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .brandItem {
+        width: 50%;
+        padding: 15px;
+    }
+}
+

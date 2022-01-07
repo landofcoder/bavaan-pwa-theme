@@ -1,0 +1,139 @@
+.brandsContainer::after {
+    content: '';
+    display: table;
+    clear: both;
+    padding-bottom: 20px;
+}
+.brandsListLeft {
+    float: left;
+    width: 30%;
+}
+.brandsSearchLabel {
+    margin: 50px 16px 25px 16px;
+    font-size: 25px;
+}
+.brandsListRight {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    border-left: 1px solid #dee0e0;
+}
+.brandsListRightDisableSideBar {
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.shopByBrand {
+    margin: 0 16px;
+}
+.brandGroupSideBar{
+    margin: 0 16px;
+}
+.brandsListTitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--venia-global-fontFamily-sansSerif);
+}
+/* Layout grid */
+.brandListRow {
+
+}
+
+.brandListRow::after {
+
+}
+
+.brandItem {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 180px;
+    transition: box-shadow .3s;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.brandItemContent {
+    margin: 0 auto;
+}
+
+.brandItemImage {
+    width: 100%;
+}
+
+.brandThumbnail {
+}
+
+.brandItemName {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.brandItemNameContent {
+
+}
+
+.brandContentTitleCountList {
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.brandContentTitleCountList span{
+    margin: 0 auto;
+}
+/* ------------------------------- */
+
+.brandLink {
+}
+.brandItem:hover {
+    border-radius:10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.breadCrumb {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    height: 0.875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+.breadCrumbLink {
+    padding: 0.25rem;
+    text-decoration: underline;
+}
+.breadCrumbSeparator {
+    padding: 0.25rem;
+}
+.breadCrumbText {
+    padding: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .brandsListRight, .brandsContainer {
+        width: 100%;
+    }
+    .brandsListLeft {
+        float: left;
+        width: 100%;
+    }
+    .brandItem {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .brandItem {
+        width: 40%;
+    }
+}

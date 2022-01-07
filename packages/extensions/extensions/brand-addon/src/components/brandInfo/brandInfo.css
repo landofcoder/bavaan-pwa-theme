@@ -1,0 +1,78 @@
+.brandImage {
+    width: 100%;
+    height: auto;
+}
+.root {
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0 0.5rem;
+}
+
+.pagination {
+    position: relative;
+    bottom: 0;
+}
+
+.placeholder {
+    height: 100vh;
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+.brandTitle {
+    color: rgb(var(--venia-global-color-text));
+    padding-bottom: 1rem;
+    font-size: 1.375rem;
+    font-weight: 300;
+    line-height: 1.375rem;
+    text-align: center;
+}
+
+.sortContainer {
+    color: rgb(var(--venia-global-color-text-alt));
+    text-align: center;
+    font-size: 0.875rem;
+    padding-bottom: 1rem;
+}
+
+.sortText {
+    font-weight: 600;
+}
+
+.filterButton {
+    composes: root_lowPriority from 'button.css';
+    min-width: 6.25rem;
+}
+
+.breadCrumb {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    height: 0.875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+.breadCrumbLink {
+    padding: 0.25rem;
+    text-decoration: underline;
+}
+.breadCrumbSeparator {
+    padding: 0.25rem;
+}
+.breadCrumbText {
+    padding: 0.25rem;
+}
+.brandImage {
+    padding: 0 9px;
+}
+

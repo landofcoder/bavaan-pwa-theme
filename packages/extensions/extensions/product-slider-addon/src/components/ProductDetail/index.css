@@ -1,0 +1,35 @@
+.productSliderModule {
+    margin: 0 auto;
+}
+.title {
+    margin-top: 20px;
+    color: rgb(var(--venia-global-color-text));
+    padding-bottom: 1rem;
+    font-weight: 300;
+    line-height: 1.375rem;
+    text-align: center;
+}
+.title h2::before {
+    position: absolute;
+    content: '';
+    background: url(../../../assets/images/icon-bg-title.png) no-repeat center
+        bottom;
+    width: 108px;
+    height: 16px;
+    bottom: -20px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.title h2 {
+    position: relative;
+    word-break: break-word;
+    line-height: 1.25em;
+    margin-bottom: 0.5em;
+    margin-top: 1rem;
+    font-family: 'Source Serif Pro';
+    font-size: 30px !important;
+}
+.wrapperSlider > div {
+    margin-bottom: 4rem;
+}
